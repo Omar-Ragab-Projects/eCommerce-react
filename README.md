@@ -2,11 +2,12 @@
 ## Live: https://ecommerce-by-react.netlify.app/
 
 ### Features:
-- Add To Cart And Remove from Cart and Adjust Quantities
-- View Cart Products And Total Price
-- Redux Toolkit (State Management)
-- React Router
-- Dark Mode
+- Add to Cart and View Cart
+- Remove from Cart and Adjust Quantities
+- State Management with Redux Toolkit
+- Navigation with React Router
+- Dark Mode Toggle
+- AOS (Animation On Scroll)
   
 ### Built With:
 - React
