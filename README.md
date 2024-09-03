@@ -1,8 +1,18 @@
-# React + Vite
+# eCommerce By React
+## Live: https://ecommerce-by-react.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features:
+- Add To Cart And Remove from Cart and Adjust Quantities
+- View Cart Products And Total Price
+- Redux Toolkit (State Management)
+- React Router
+- Dark Mode
+  
+### Built With:
+- React
+- Tailwind
+- Redux Toolkit
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+P I C S :
+![Screenshot_1](https://github.com/user-attachments/assets/474b558e-8fc7-4f3d-844e-7fddad94f8f9)
+![Screenshot_2](https://github.com/user-attachments/assets/2281bf43-6a59-4731-b5a4-1424dce82657)
