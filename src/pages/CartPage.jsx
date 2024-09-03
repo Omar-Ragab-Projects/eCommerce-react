@@ -15,13 +15,14 @@ function CartPage() {
       <div className="container">
         <div className="cart flex">
           <div className="products flex-[4]">
-            {JSON.parse(localStorage.getItem("items")).filter(
-              (i) => i.ammount > 0
-            ).length == 0 && (
-              <h1 className="font-bold text-4xl text-gray-500 ">
-                No Items Yet...
-              </h1>
-            )}
+            {localStorage.getItem("items") &&
+              JSON.parse(localStorage.getItem("items")).filter(
+                (i) => i.ammount > 0
+              ).length == 0 && (
+                <h1 className="font-bold text-4xl text-gray-500 ">
+                  No Items Yet...
+                </h1>
+              )}
             <ul className="flex gap-10 flex-wrap">
               {cartItems.length > 0 && items}
             </ul>

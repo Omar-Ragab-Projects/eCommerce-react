@@ -16,7 +16,7 @@ export default function HeroCard(props) {
         >
           {props.t3}
         </div>
-        <button className=" bg-primary" data-aos="zoom-in">
+        <button className=" bg-primary" data-aos="zoom-out">
           Shop By Category
         </button>
       </div>
