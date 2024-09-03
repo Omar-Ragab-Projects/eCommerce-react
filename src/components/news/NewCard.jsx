@@ -1,6 +1,6 @@
 function NewCard({ data }) {
   return (
-    <div className="new-card flex-1   min-w-[300px]">
+    <div className="new-card flex-1   min-w-[300px]" data-aos="fade-up">
       <div className=" h-[170px] overflow-hidden rounded-xl">
         <img
           className="hover:blur-[1px] hover:scale-105 transition"

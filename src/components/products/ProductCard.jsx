@@ -17,7 +17,11 @@ function ProductCard({ data }) {
   }
 
   return (
-    <div className="product-card w-[300px] dark:text-brandWhite cursor-pointer relative">
+    <div
+      className="product-card w-[300px] dark:text-brandWhite cursor-pointer relative"
+      data-aos="fade-up"
+      data-aos-delay={50 * data.id}
+    >
       <div className="image relative">
         <img className="rounded" src={data.img} />
         <div className="popup z-10 bg-primary text-brandWhite font-bold py-3 px-4 rounded-full">

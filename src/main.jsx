@@ -7,6 +7,11 @@ import router from "./router/router.jsx";
 import { RouterProvider } from "react-router-dom";
 import { store } from "./app/store";
 import { Provider } from "react-redux";
+import AOS from "aos";
+// import "aos/dist/aos.css";
+AOS.init({
+  duration: 1000,
+});
 // Handle Dark Mode OnMount
 localStorage.getItem("theme") === "dark"
   ? document.documentElement.classList.add("dark")
