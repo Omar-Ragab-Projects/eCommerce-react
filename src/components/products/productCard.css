@@ -1,0 +1,16 @@
+.product-card {
+  transition: 0.3s;
+}
+.product-card:hover .image img {
+  filter: blur(2px);
+}
+.product-card:hover .image .popup {
+  transform: translate(-50%, -50%) scale(100%);
+}
+.product-card .popup {
+  transition: 0.3s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0%);
+}

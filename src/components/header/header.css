@@ -1,0 +1,42 @@
+.header .head-right .search {
+  position: relative;
+  margin-right: 10px;
+}
+.header .head-right .search:hover input {
+  padding: 4px 15px;
+  width: 250px;
+  transition: 0.3s;
+  outline: 1px solid black;
+}
+@media (max-width: 991px) {
+  .header .head-right .search:hover input {
+    width: 150px;
+  }
+}
+.header .head-right .search:hover svg {
+  color: #f42c37;
+}
+.header .head-right .search input {
+  border-radius: 20px;
+  width: 0;
+  padding: 8px 0 0 0;
+}
+.header .head-right .search svg {
+  position: absolute;
+  right: 4px;
+}
+.header .head-right .cart:after {
+  content: attr(data-notifies);
+  position: absolute;
+  right: -4px;
+  top: -10px;
+  width: 15px;
+  height: 15px;
+  background-color: #f42c37;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white !important;
+}
