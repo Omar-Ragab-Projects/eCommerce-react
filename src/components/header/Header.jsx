@@ -93,9 +93,11 @@ export default function Header() {
             <div
               className="cart mr-4 cursor-pointer relative "
               data-notifies={
-                JSON.parse(localStorage.getItem("items")).filter(
-                  (i) => i.ammount > 0
-                ).length
+                localStorage.getItem("items")
+                  ? JSON.parse(localStorage.getItem("items")).filter(
+                      (i) => i.ammount > 0
+                    ).length
+                  : 0
               }
             >
               <FaCartShopping />
